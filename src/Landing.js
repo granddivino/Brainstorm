@@ -4,17 +4,27 @@ import Lightning from "./Images/Lightning.jpg"
 import Bulb from "./Images/Bulb.jpg"
 import Ideas from "./Images/Ideas.jpg"
 import Mind from "./Images/Mind.jpg"
-import {FaGithubSquare, FaLinkedin} from "react-icons/fa"
+// import Brainbulb from "./Images/Brainbulb.png"
+import { FaGithubSquare, FaLinkedin } from "react-icons/fa"
+import Button from "@material-ui/core/Button"
+
 
 function Landing() {
   return (
     <div class="grid-2">
         <div class="section-1">
+            {/* <img src={Brainbulb} alt="Rainbulb" width="300" height="300" /> */}
             <h2>Sorting through Chaos</h2>
-            <p>The theory behind what you see.</p>
+            <p>The vision behind what we see in our work.</p>
             <p>© Gabriel Go 2021</p>
-            <FaGithubSquare size="4em" />
-            <FaLinkedin size="4em" />
+            <div class="links">
+            <Button target="_blank" href="https://github.com/granddivino">
+            <FaGithubSquare size="3em" />
+            </Button>
+            <Button target="_blank" href="https://www.linkedin.com/in/gabriel-go-10192bb3/">
+            <FaLinkedin size="3em" />
+            </Button>
+            </div>
         </div>
         <div class="section-2">
           <div class="subsection-1">
@@ -24,6 +34,7 @@ function Landing() {
             <img src={Bulb} alt="Bulb" width="100" height="100" />
             <img src={Ideas} alt="Ideas" width="100" height="100" />
             <img src={Mind} alt="Mind" width="100" height="100" />
+
             <p>Have you ever looked at your own work and wondered how the finished product became what it was when when all was said and done?
               Of course "work" can apply to things such as art, writing, and music.. but in this particular case, I'm specifically talking about the product of coding. 
             </p>

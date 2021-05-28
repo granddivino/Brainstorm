@@ -31,13 +31,22 @@ a {
 }
 
 .section-1 h2{
-  font-size: 4rem;
-  /* margin-bottom: 10px; */
+  font-size: 5rem;
+  color: rgb(167, 11, 11);
+  margin-bottom: 10px;
 }
 
 .section-1 a{
   font-size: 1.5rem;
   padding: 10px;
+}
+
+.links {
+  color: white;
+}
+
+.section-1 img {
+  backgroundColor: 'transparent'
 }
 
 
