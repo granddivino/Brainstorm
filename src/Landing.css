@@ -20,7 +20,7 @@ a {
 
 /* Section 1 */
 .section-1{
-  padding-top: 40vh;
+  padding-top: 80vh;
   text-align: center;
 }
 
@@ -30,7 +30,7 @@ a {
   margin:0;
 }
 
-.section-1 h2{
+.section-1 h1{
   font-size: 5rem;
   color: rgb(167, 11, 11);
   margin-bottom: 10px;
@@ -41,13 +41,17 @@ a {
   padding: 10px;
 }
 
+.copyright {
+  color:rgb(214, 148, 6);
+}
+
 .links {
   color: white;
 }
 
-.section-1 img {
-  backgroundColor: 'transparent'
-}
+/* .section-1 img {
+
+} */
 
 
 /* Section 2 */
@@ -73,6 +77,16 @@ a {
   font-size: 1.2rem;
   padding-left: 0;
   width: 100px;
+}
+
+.section-2 h3{
+  color:rgb(114, 59, 111);
+}
+
+.miniImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }
 
 /* Hovers */
